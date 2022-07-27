@@ -2,9 +2,11 @@ import React from "react";
 import ReactSpeedometer from "react-d3-speedometer";
 import "../App.css";
 
+//present data in ReactSpeedometer
 const GChart = ({ min, max, value }) => {
   return (
     <div>
+      <h2> Gauge Visualisation</h2>
       {min !== undefined && max !== undefined && (
         <ReactSpeedometer
           maxValue={max}
@@ -15,7 +17,7 @@ const GChart = ({ min, max, value }) => {
           needleTransition="easeElastic"
           segmentColors={["gold"]}
           valueFormat="$"
-          paddingHorizontal={600}
+          paddingHorizontal={620}
           textColor="black"
         />
       )}

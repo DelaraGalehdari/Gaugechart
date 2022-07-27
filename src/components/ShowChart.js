@@ -10,6 +10,7 @@ const ShowChart = () => {
   const [minNum, setMinNum] = useState(undefined);
   const [maxNum, setMaxNum] = useState(undefined);
 
+  //call fetchData function and save data in state
   useEffect(() => {
     const fetch = async () => {
       const response = await fetchData();
