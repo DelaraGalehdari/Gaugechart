@@ -1,0 +1,16 @@
+.App {
+  color: black;
+}
+text.segment-value:nth-child(1) {
+  font-size: 16px !important;
+  font-weight: bold;
+  fill: unset !important;
+  transform: rotate(0deg) translate(-105px, 20px);
+}
+
+text.segment-value:nth-child(2) {
+  font-size: 16px !important;
+  font-weight: bold;
+  fill: unset !important;
+  transform: rotate(0deg) translate(105px, 20px);
+}
