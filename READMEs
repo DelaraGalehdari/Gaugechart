@@ -1,0 +1,4 @@
+For Running the app, you need to install :
+npm install axios   
+npm i react-toastify 
+npm i react-d3-speedometer 
