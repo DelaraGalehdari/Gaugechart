@@ -8,6 +8,7 @@ export const fetchData = async () => {
     const response = await axios.get(
       "https://widgister.herokuapp.com/challenge/frontend"
     );
+    console.log("data is", response.data);
     return response.data;
   } catch (error) {
     toast.error("Something went wrong. Please try again!", {
